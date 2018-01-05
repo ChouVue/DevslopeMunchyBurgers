@@ -14,6 +14,10 @@
 		533304081FFEF935008F6D62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533304061FFEF935008F6D62 /* LaunchScreen.storyboard */; };
 		533304131FFEF935008F6D62 /* DevslopeMunchyBurgersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533304121FFEF935008F6D62 /* DevslopeMunchyBurgersTests.swift */; };
 		533304241FFEFEE1008F6D62 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533304231FFEFEE1008F6D62 /* MainVC.swift */; };
+		53F58E2F1FFFCF8F000AD343 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F58E2E1FFFCF8F000AD343 /* DropShadow.swift */; };
+		53F58E311FFFD8DD000AD343 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F58E301FFFD8DD000AD343 /* HeaderView.swift */; };
+		53F58E331FFFDC3B000AD343 /* Burger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F58E321FFFDC3B000AD343 /* Burger.swift */; };
+		53F58E351FFFE562000AD343 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F58E341FFFE562000AD343 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		533304121FFEF935008F6D62 /* DevslopeMunchyBurgersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevslopeMunchyBurgersTests.swift; sourceTree = "<group>"; };
 		533304141FFEF935008F6D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		533304231FFEFEE1008F6D62 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		53F58E2E1FFFCF8F000AD343 /* DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
+		53F58E301FFFD8DD000AD343 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		53F58E321FFFDC3B000AD343 /* Burger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Burger.swift; sourceTree = "<group>"; };
+		53F58E341FFFE562000AD343 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +121,7 @@
 			children = (
 				533303FE1FFEF935008F6D62 /* Main.storyboard */,
 				533304061FFEF935008F6D62 /* LaunchScreen.storyboard */,
+				53F58E301FFFD8DD000AD343 /* HeaderView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -120,6 +129,8 @@
 		5333041F1FFEFCE1008F6D62 /* Modal */ = {
 			isa = PBXGroup;
 			children = (
+				53F58E321FFFDC3B000AD343 /* Burger.swift */,
+				53F58E341FFFE562000AD343 /* DataService.swift */,
 			);
 			name = Modal;
 			sourceTree = "<group>";
@@ -127,6 +138,7 @@
 		533304201FFEFDC8008F6D62 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				53F58E2E1FFFCF8F000AD343 /* DropShadow.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -250,8 +262,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53F58E331FFFDC3B000AD343 /* Burger.swift in Sources */,
+				53F58E351FFFE562000AD343 /* DataService.swift in Sources */,
+				53F58E311FFFD8DD000AD343 /* HeaderView.swift in Sources */,
 				533303FB1FFEF935008F6D62 /* AppDelegate.swift in Sources */,
 				533304241FFEFEE1008F6D62 /* MainVC.swift in Sources */,
+				53F58E2F1FFFCF8F000AD343 /* DropShadow.swift in Sources */,
 				533304031FFEF935008F6D62 /* DevslopeMunchyBurgers.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +476,7 @@
 				533304191FFEF935008F6D62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5333041A1FFEF935008F6D62 /* Build configuration list for PBXNativeTarget "DevslopeMunchyBurgersTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +485,7 @@
 				5333041C1FFEF935008F6D62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
