@@ -18,6 +18,8 @@
 		53F58E311FFFD8DD000AD343 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F58E301FFFD8DD000AD343 /* HeaderView.swift */; };
 		53F58E331FFFDC3B000AD343 /* Burger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F58E321FFFDC3B000AD343 /* Burger.swift */; };
 		53F58E351FFFE562000AD343 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F58E341FFFE562000AD343 /* DataService.swift */; };
+		53F8E11E2000027E002D9765 /* BurgerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F8E11C2000027E002D9765 /* BurgerCell.swift */; };
+		53F8E11F2000027E002D9765 /* BurgerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53F8E11D2000027E002D9765 /* BurgerCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		53F58E301FFFD8DD000AD343 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		53F58E321FFFDC3B000AD343 /* Burger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Burger.swift; sourceTree = "<group>"; };
 		53F58E341FFFE562000AD343 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		53F8E11C2000027E002D9765 /* BurgerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BurgerCell.swift; sourceTree = "<group>"; };
+		53F8E11D2000027E002D9765 /* BurgerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BurgerCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 				533303FE1FFEF935008F6D62 /* Main.storyboard */,
 				533304061FFEF935008F6D62 /* LaunchScreen.storyboard */,
 				53F58E301FFFD8DD000AD343 /* HeaderView.swift */,
+				53F8E11C2000027E002D9765 /* BurgerCell.swift */,
+				53F8E11D2000027E002D9765 /* BurgerCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -244,6 +250,7 @@
 			files = (
 				533304081FFEF935008F6D62 /* LaunchScreen.storyboard in Resources */,
 				533304051FFEF935008F6D62 /* Assets.xcassets in Resources */,
+				53F8E11F2000027E002D9765 /* BurgerCell.xib in Resources */,
 				533304001FFEF935008F6D62 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +271,7 @@
 			files = (
 				53F58E331FFFDC3B000AD343 /* Burger.swift in Sources */,
 				53F58E351FFFE562000AD343 /* DataService.swift in Sources */,
+				53F8E11E2000027E002D9765 /* BurgerCell.swift in Sources */,
 				53F58E311FFFD8DD000AD343 /* HeaderView.swift in Sources */,
 				533303FB1FFEF935008F6D62 /* AppDelegate.swift in Sources */,
 				533304241FFEFEE1008F6D62 /* MainVC.swift in Sources */,
