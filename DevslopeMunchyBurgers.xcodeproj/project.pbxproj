@@ -79,6 +79,9 @@
 		533303F91FFEF935008F6D62 /* DevslopeMunchyBurgers */ = {
 			isa = PBXGroup;
 			children = (
+				5333041F1FFEFCE1008F6D62 /* Modal */,
+				5333041E1FFEFCDB008F6D62 /* View */,
+				5333041D1FFEFCC6008F6D62 /* Controller */,
 				533303FA1FFEF935008F6D62 /* AppDelegate.swift */,
 				533303FC1FFEF935008F6D62 /* ViewController.swift */,
 				533303FE1FFEF935008F6D62 /* Main.storyboard */,
@@ -97,6 +100,27 @@
 				533304141FFEF935008F6D62 /* Info.plist */,
 			);
 			path = DevslopeMunchyBurgersTests;
+			sourceTree = "<group>";
+		};
+		5333041D1FFEFCC6008F6D62 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5333041E1FFEFCDB008F6D62 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5333041F1FFEFCE1008F6D62 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Modal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
