@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		533303FB1FFEF935008F6D62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533303FA1FFEF935008F6D62 /* AppDelegate.swift */; };
-		533303FD1FFEF935008F6D62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533303FC1FFEF935008F6D62 /* ViewController.swift */; };
 		533304001FFEF935008F6D62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533303FE1FFEF935008F6D62 /* Main.storyboard */; };
 		533304031FFEF935008F6D62 /* DevslopeMunchyBurgers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 533304011FFEF935008F6D62 /* DevslopeMunchyBurgers.xcdatamodeld */; };
 		533304051FFEF935008F6D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533304041FFEF935008F6D62 /* Assets.xcassets */; };
 		533304081FFEF935008F6D62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533304061FFEF935008F6D62 /* LaunchScreen.storyboard */; };
 		533304131FFEF935008F6D62 /* DevslopeMunchyBurgersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533304121FFEF935008F6D62 /* DevslopeMunchyBurgersTests.swift */; };
+		533304241FFEFEE1008F6D62 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533304231FFEFEE1008F6D62 /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,6 @@
 /* Begin PBXFileReference section */
 		533303F71FFEF935008F6D62 /* DevslopeMunchyBurgers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevslopeMunchyBurgers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		533303FA1FFEF935008F6D62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		533303FC1FFEF935008F6D62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		533303FF1FFEF935008F6D62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		533304021FFEF935008F6D62 /* DevslopeMunchyBurgers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DevslopeMunchyBurgers.xcdatamodel; sourceTree = "<group>"; };
 		533304041FFEF935008F6D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		5333040E1FFEF935008F6D62 /* DevslopeMunchyBurgersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevslopeMunchyBurgersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		533304121FFEF935008F6D62 /* DevslopeMunchyBurgersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevslopeMunchyBurgersTests.swift; sourceTree = "<group>"; };
 		533304141FFEF935008F6D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533304231FFEFEE1008F6D62 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,12 +84,7 @@
 				5333041F1FFEFCE1008F6D62 /* Modal */,
 				5333041E1FFEFCDB008F6D62 /* View */,
 				5333041D1FFEFCC6008F6D62 /* Controller */,
-				533303FA1FFEF935008F6D62 /* AppDelegate.swift */,
-				533303FC1FFEF935008F6D62 /* ViewController.swift */,
-				533303FE1FFEF935008F6D62 /* Main.storyboard */,
-				533304041FFEF935008F6D62 /* Assets.xcassets */,
-				533304061FFEF935008F6D62 /* LaunchScreen.storyboard */,
-				533304091FFEF935008F6D62 /* Info.plist */,
+				533304221FFEFE58008F6D62 /* Resources */,
 				533304011FFEF935008F6D62 /* DevslopeMunchyBurgers.xcdatamodeld */,
 			);
 			path = DevslopeMunchyBurgers;
@@ -107,6 +102,8 @@
 		5333041D1FFEFCC6008F6D62 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				533303FA1FFEF935008F6D62 /* AppDelegate.swift */,
+				533304231FFEFEE1008F6D62 /* MainVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -114,6 +111,8 @@
 		5333041E1FFEFCDB008F6D62 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				533303FE1FFEF935008F6D62 /* Main.storyboard */,
+				533304061FFEF935008F6D62 /* LaunchScreen.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -137,6 +136,15 @@
 			children = (
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		533304221FFEFE58008F6D62 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				533304091FFEF935008F6D62 /* Info.plist */,
+				533304041FFEF935008F6D62 /* Assets.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				533303FD1FFEF935008F6D62 /* ViewController.swift in Sources */,
 				533303FB1FFEF935008F6D62 /* AppDelegate.swift in Sources */,
+				533304241FFEFEE1008F6D62 /* MainVC.swift in Sources */,
 				533304031FFEF935008F6D62 /* DevslopeMunchyBurgers.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
