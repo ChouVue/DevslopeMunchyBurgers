@@ -17,8 +17,22 @@ class MainVC: UIViewController, DataServiceDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        ds.delegate = self
+        
+        ds.loadDeliciousBurgerData()
+        
+        collectionView.delegate = self
+        collectionView.dataSource = self
 
         headerView.addDropShadow()
+        
+        /*
+        let nib = UINib(nibName: "BurgerCell", bundle: nil)
+        collectionView.register(nib, forCellWithReuseIdentifier: "BurgerCell")
+         */
+        
+        collectionView.register(BurgerCell.self)
     }
     
     func deliciousBurgerDataLoaded() {
@@ -38,6 +52,7 @@ extension MainVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollec
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
+        
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "BurgerCell", for: indexPath) as? BurgerCell {
             
             cell.configureCell(burger: ds.burgerArray[indexPath.row])
@@ -46,4 +61,41 @@ extension MainVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollec
         
         return UICollectionViewCell()
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
+        return CGSize(width: 95, height: 95)
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

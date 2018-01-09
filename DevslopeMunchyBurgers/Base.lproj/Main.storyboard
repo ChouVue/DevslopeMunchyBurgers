@@ -65,6 +65,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="collectionView" destination="ld4-Zv-0us" id="QsK-5P-KEe"/>
                         <outlet property="headerView" destination="ZtR-72-58I" id="GFU-Uh-Zng"/>
                     </connections>
                 </viewController>
