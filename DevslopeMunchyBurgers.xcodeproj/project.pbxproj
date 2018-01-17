@@ -18,6 +18,8 @@
 		53F58E311FFFD8DD000AD343 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F58E301FFFD8DD000AD343 /* HeaderView.swift */; };
 		53F58E331FFFDC3B000AD343 /* Burger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F58E321FFFDC3B000AD343 /* Burger.swift */; };
 		53F58E351FFFE562000AD343 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F58E341FFFE562000AD343 /* DataService.swift */; };
+		53F7CB46200FD5EC006CEAA4 /* MutableCollection+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F7CB45200FD5EC006CEAA4 /* MutableCollection+Ext.swift */; };
+		53F7CB48200FDC7A006CEAA4 /* Shakeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F7CB47200FDC7A006CEAA4 /* Shakeable.swift */; };
 		53F8E11E2000027E002D9765 /* BurgerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F8E11C2000027E002D9765 /* BurgerCell.swift */; };
 		53F8E11F2000027E002D9765 /* BurgerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53F8E11D2000027E002D9765 /* BurgerCell.xib */; };
 		53FB415E2005455500DD03DD /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FB415D2005455500DD03DD /* ReusableView.swift */; };
@@ -51,6 +53,8 @@
 		53F58E301FFFD8DD000AD343 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		53F58E321FFFDC3B000AD343 /* Burger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Burger.swift; sourceTree = "<group>"; };
 		53F58E341FFFE562000AD343 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		53F7CB45200FD5EC006CEAA4 /* MutableCollection+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MutableCollection+Ext.swift"; sourceTree = "<group>"; };
+		53F7CB47200FDC7A006CEAA4 /* Shakeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shakeable.swift; sourceTree = "<group>"; };
 		53F8E11C2000027E002D9765 /* BurgerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BurgerCell.swift; sourceTree = "<group>"; };
 		53F8E11D2000027E002D9765 /* BurgerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BurgerCell.xib; sourceTree = "<group>"; };
 		53FB415D2005455500DD03DD /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
@@ -153,6 +157,7 @@
 				53F58E2E1FFFCF8F000AD343 /* DropShadow.swift */,
 				53FB415D2005455500DD03DD /* ReusableView.swift */,
 				53FB415F2005466400DD03DD /* NibLoadableView.swift */,
+				53F7CB47200FDC7A006CEAA4 /* Shakeable.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				53FB41612005472300DD03DD /* UICollectionView+Ext.swift */,
+				53F7CB45200FD5EC006CEAA4 /* MutableCollection+Ext.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -286,6 +292,8 @@
 				53FB41622005472300DD03DD /* UICollectionView+Ext.swift in Sources */,
 				533303FB1FFEF935008F6D62 /* AppDelegate.swift in Sources */,
 				53FB41602005466400DD03DD /* NibLoadableView.swift in Sources */,
+				53F7CB48200FDC7A006CEAA4 /* Shakeable.swift in Sources */,
+				53F7CB46200FD5EC006CEAA4 /* MutableCollection+Ext.swift in Sources */,
 				533304241FFEFEE1008F6D62 /* MainVC.swift in Sources */,
 				53F58E2F1FFFCF8F000AD343 /* DropShadow.swift in Sources */,
 				533304031FFEF935008F6D62 /* DevslopeMunchyBurgers.xcdatamodeld in Sources */,

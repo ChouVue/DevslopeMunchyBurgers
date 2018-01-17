@@ -19,8 +19,8 @@ class MainVC: UIViewController, DataServiceDelegate {
         super.viewDidLoad()
         
         ds.delegate = self
-        
         ds.loadDeliciousBurgerData()
+        ds.burgerArray.shuffle()
         
         collectionView.delegate = self
         collectionView.dataSource = self
@@ -37,6 +37,7 @@ class MainVC: UIViewController, DataServiceDelegate {
     
     func deliciousBurgerDataLoaded() {
         print("Delicious Burger Data Loaded!")
+        collectionView.reloadData()
     }
 }
 
