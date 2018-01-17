@@ -53,13 +53,17 @@ extension MainVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollec
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         
-        if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "BurgerCell", for: indexPath) as? BurgerCell {
-            
-            cell.configureCell(burger: ds.burgerArray[indexPath.row])
-            return cell
-        }
+//        if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "BurgerCell", for: indexPath) as? BurgerCell {
+//            
+//            cell.configureCell(burger: ds.burgerArray[indexPath.row])
+//            return cell
+//        }
+//        
+//        return UICollectionViewCell()
         
-        return UICollectionViewCell()
+        let cell = collectionView.dequeueReusableCell(forIndexPath: indexPath) as BurgerCell
+        cell.configureCell(burger: ds.burgerArray[indexPath.row])
+        return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
