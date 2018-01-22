@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BurgerCell: UICollectionViewCell, NibLoadableView {
+class BurgerCell: UICollectionViewCell, NibLoadableView, Shakeable {
 
     @IBOutlet weak var burgerImg: UIImageView!
     @IBOutlet weak var burgerLbl: UILabel!
